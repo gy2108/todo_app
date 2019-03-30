@@ -1,2 +1,2 @@
 # todo_app
-Building a Todo App Using Djano
+Building a Todo App Using Django
