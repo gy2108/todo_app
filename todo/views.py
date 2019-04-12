@@ -9,7 +9,7 @@ def todoView(request):
 
 def addTodoview(request):
     item = TodoItem(content=request.POST['content'])
-    if item.content is not "":
+    if item.content.strip() is not "":
         item.save()
     return HttpResponseRedirect('/todo')
 
